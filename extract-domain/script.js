@@ -13,3 +13,6 @@ const domainName = (url) => {
 };
 
 console.log(domainName("http://github.com/carbonfive/raygun"));
+console.log(domainName("www.xakep.ru"));
+
+//Need to catch TypeError - figure out how to correct .ru URL..
